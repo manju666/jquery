@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="js/jquery-3.3.1.js"></script>
+
+
+    <script>
+        $(function() {
+            
+            
+            
+
+            $("#btn").click(function() {
+                $("#content").html("<h3>Welcome to sentia</h3>");
+            });
+            
+            
+           $("p").hover(function(){
+               $(this).css("background-color","yellow");
+           });
+            
+                    
+            $("p").mouseleave(function(){
+               $(this).css("background-color","red");
+           });
+            
+            size=14;
+            
+            $("#plus").click(function() {
+                $("p").css("font-size",size++);
+            });
+               
+            
+              $("#minus").click(function() {
+                $("p").css("font-size",size--);
+            });
+               
+            
+            
+        });
+        
+    </script>
+
+</head>
+
+<body>
+   <button id="btn">Click</button>
+   
+   <button id="plus">+</button>
+   <button id="minus">-</button> 
+   <hr/>   
+    
+    
+    <div id="content"></div>
+    <p>
+        
+    fbhkfbksdgtf uwiogsdkhfadgb eifg efig bdihjfigdf i dbfboiyeghb 
+    </p>
+    
+    <p>
+        
+    fbhkfbksdgtf uwiogsdkhfadgb eifg efig bdihjfigdf i dbfboiyeghb 
+    </p>
+    
+    <p>
+        
+    fbhkfbksdgtf uwiogsdkhfadgb eifg efig bdihjfigdf i dbfboiyeghb 
+    </p>
+    
+    <p>
+        
+    fbhkfbksdgtf uwiogsdkhfadgb eifg efig bdihjfigdf i dbfboiyeghb 
+    </p>
+    
+   <div id="body"></div>
+
+
+</body>
+    
+    
+</html>
